@@ -1,0 +1,90 @@
+body {
+    background-color: #1554d4;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.play {
+    height: 62px;
+    width: 140px;
+    font-size: large;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 20%;
+}
+
+.btn {
+    font-size: 32px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.number {
+    height: 130px;
+    width: 150px;
+    background-color: white;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    color: #281414;
+    margin: 0 auto;
+    font-size: 80px;
+}
+
+hr {
+    position: relative;
+    top: 80px;
+    height: 10px;
+    background-color: white;
+    z-index: -1;
+}
+
+.parent {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+input {
+    height: 120px;
+    width: 250px;
+    font-size: 50px;
+    border: 5px solid white;
+    background-color: transparent;
+    color: white;
+    display: block;
+    box-sizing: border-box;
+    padding-left: 60px;
+    padding-right: 20px;
+}
+
+.check {
+    display: block;
+    margin-top: 20px;
+    margin-left: 70px;
+    height: 60px;
+    width: 120px;
+    font-size: 25px;
+    border-radius: 20%;
+}
+
+.start {
+    font-size: 40px;
+    margin-top: 1px;
+}
+
+.chance {
+    font-size: 22px;
+    margin-top: 60px;
+}
+
+.high {
+    font-size: 22px;
+}
